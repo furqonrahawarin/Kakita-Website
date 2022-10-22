@@ -93,7 +93,7 @@ h4,
 h5,
 h6 {
     font-weight: 600;
-    color: #222;
+    color: #FFB902;
     margin-bottom: 0;
 }
 
@@ -351,7 +351,7 @@ img {
 }
 
 .btn.btn-bordered {
-    background: transparent none repeat scroll 0 0;
+    background: none repeat scroll 0 0;
     color: #444;
 }
 
@@ -544,7 +544,7 @@ img {
     width: 100%;
     display: block;
     border-radius: 120px;
-    background: linear-gradient(-47deg, #4f3095 0%, #35255A 100%);
+    background: linear-gradient(-47deg, #fbff00 0%, #FFB902 100%);
     bottom: 0;
     right: 0;
     -webkit-transform: translate(35%, -28%) rotate(-35deg);
@@ -645,8 +645,12 @@ img {
     color: #888 !important;
 }
 
-.bg-grey {
-    background-color: #f4f4f4;
+.bg-blue {
+    background-color: #3c2c7f;
+}
+
+.bg-blue-dark {
+    background-color: #2f2360;
 }
 
 .bg-inherit {
@@ -654,18 +658,18 @@ img {
 }
 
 .bg-overlay::after {
-    background: -webkit-radial-gradient(50% 50%, circle closest-side,  #4f3095 0%, #35255A 100%);
+    background: -webkit-radial-gradient(50% 50%, circle closest-side,  #fbff00 0%, #FFB902 100%);
 }
 
 .breadcrumb-area.bg-overlay::after {
-    background: linear-gradient(-45deg,  #4f3095 0%, #35255A 100%);
+    background: linear-gradient(-45deg,  #fbff00 0%, #FFB902 100%);
 }
 
 .btn,
 .btn:active,
 .btn.btn-bordered:before,
 .btn.btn-bordered-white:after {
-    background: linear-gradient(-45deg,  #4f3095 0%, #35255A 100%);
+    background: linear-gradient(-45deg,  #fbff00 0%, #FFB902 100%);
 }
 
 /*SOCIAL ICONS*/
@@ -684,6 +688,7 @@ img {
 .social-icons svg {
     display: block;
     height: 100%;
+    color: white;
     line-height: 45px;
     margin: 0 auto;
     -webkit-transition: all 0.3s ease 0s;
@@ -1967,7 +1972,7 @@ body.dark,
     width: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(135deg, #4f3095 0%, #35255A 100%);
+    background: linear-gradient(135deg, #fbff00 0%, #FFB902 100%);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
