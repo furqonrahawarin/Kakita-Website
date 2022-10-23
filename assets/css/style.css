@@ -1,13 +1,4 @@
 /* ************************************************************
-:: Template Name: Digimax - SEO & Digital Marketing Agency HTML Template
-:: Template URI: http://theme-land.com/digimax
-:: Template Author Name: theme_land
-:: Template Author URI: hridoy1272@gmail.com
-:: Version: 1.0.0
-:: Created: 13 Aug 2020
-************************************************************ 
-*
-*
 ******* :: INDEX OF CSS :: *******
 :: 1.0 WEB FONTS
 :: 2.0 IMPORT ALL CSS
@@ -136,7 +127,7 @@ p {
 }
 
 a {
-    color: #444;
+    color: #FFB902;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
@@ -440,7 +431,7 @@ img {
 }
 
 .homepage-5 .service-btn {
-    color: rgba(255, 255, 255, .54);
+    color: rgb(255, 255, 255);
 }
 
 .service-btn::after {
@@ -448,7 +439,7 @@ img {
     content: '';
     height: 2px;
     width: 100%;
-    background-color: #0449c4;
+    background-color: #fff;
     border-radius: 4px;
     bottom: 0;
     left: 0;
@@ -683,6 +674,10 @@ img {
     overflow: hidden;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
+}
+
+.icon-large{
+    font-size: 40px;
 }
 
 .social-icons svg {
@@ -967,7 +962,7 @@ img {
 #scrollUp {
     position: fixed;
     right: 2%;
-    bottom: 3%;
+    bottom: 13%;
     height: 50px;
     width: 50px;
     line-height: 45px;
@@ -981,6 +976,22 @@ img {
     transition: all 0.3s ease 0s;
 }
 
+#wa {
+    position: fixed;
+    right: 2%;
+    bottom: 3%;
+    height: 50px;
+    width: 50px;
+    line-height: 45px;
+    border-radius: 50%;
+    background-color: #191919;
+    text-align: center;
+    cursor: pointer;
+    z-index: 500;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
 #scrollUp > svg {
     display: block;
     height: 100%;
@@ -989,7 +1000,19 @@ img {
     margin: 0 auto;
 }
 
+#wa > a {
+    display: block;
+    height: 100%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
 #scrollUp:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#wa:hover {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
 }
@@ -1004,7 +1027,7 @@ header {
 
 .navbar-sticky {
     top: 0;
-    background-color: #fff;
+    background-color: #3c2c7f;
     -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
     -webkit-transition: all .15s ease-out 0s !important;
@@ -1093,7 +1116,7 @@ header {
 
 .navbar-expand.navbar-sticky .navbar-nav .nav-link,
 .navbar-expand.navbar-light .navbar-nav .nav-link {
-    color: #2c2e30;
+    color: #ffffff;
 }
 
 .navbar-expand .navbar-nav .dropdown-menu .nav-link {
@@ -1101,7 +1124,7 @@ header {
     -ms-flex-pack: justify;
     justify-content: space-between;
     font-size: 0.9125rem;
-    color: #2c2e30;
+    color: #ffffff;
     padding: 0.625rem 1.25rem;
 }
 
@@ -1217,9 +1240,10 @@ header {
 }
 
 .modal-content {
-    border: none;
-    border-radius: 0;
-    overflow-x: hidden;
+    text-align: center;
+    padding: 30px 10px 30px 10px ;
+    margin-top: 200px;
+    background-color: #06052F;
 }
 
 .modal-header {
@@ -2250,7 +2274,7 @@ body.dark,
 ****************************** */
 .single-review {
     position: relative;
-    background-color: #f4f4f4;
+    background-color: #fff;
     -webkit-box-shadow: 0 10px 50px 0px rgba(0, 0, 0, 0.12);
     box-shadow: 0 10px 50px 0px rgba(0, 0, 0, 0.12);
     -webkit-transform: scale(0.96);

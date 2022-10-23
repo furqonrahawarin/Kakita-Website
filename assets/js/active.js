@@ -16,6 +16,8 @@
 // :: 14.0 PORTFOLIO ACTIVE CODE
 // :: 15.0 CONTACT FORM ACTIVE CODE
 
+// ------------//
+
 (function ($) {
     'use strict';
 
@@ -81,6 +83,8 @@
             }
         })
     });
+
+    
 
     // :: 3.0 STICKY HEADER ACTIVE CODE
     $window.on('scroll', function () {
